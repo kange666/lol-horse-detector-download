@@ -20,9 +20,13 @@
     })
     .then((release) => {
       setText('[data-release-version]', release.version)
+      setText('[data-installer-name]', release.installer?.name)
+      setText('[data-installer-size]', release.installer?.sizeText)
+      setText('[data-installer-sha256]', release.installer?.sha256)
       setText('[data-portable-name]', release.portable?.name)
       setText('[data-portable-size]', release.portable?.sizeText)
       setText('[data-portable-sha256]', release.portable?.sha256)
+      setHref('installer', release.installer?.url)
       setHref('portable', release.portable?.url)
     })
     .catch(() => {

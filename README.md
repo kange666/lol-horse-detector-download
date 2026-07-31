@@ -9,6 +9,7 @@
 
 ## 下载
 
+- [Windows 安装版](https://kange666.github.io/lol-horse-detector-download/#download)
 - [Windows 免安装版](https://kange666.github.io/lol-horse-detector-download/#download)
 
 ## 风险说明
