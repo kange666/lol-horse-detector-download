@@ -79,6 +79,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .brand strong, .brand small, .footer-brand strong, .footer-brand small { display: block; }
 .brand strong { letter-spacing: .08em; font-size: 15px; }
 .brand small, .footer-brand small { margin-top: 3px; color: #687a90; font-size: 9px; letter-spacing: .12em; }
+.footer-brand small a { color: #a99162; transition: color .2s; }
+.footer-brand small a:hover { color: var(--gold-light); }
 
 nav { display: flex; align-items: center; gap: 28px; }
 nav a { color: #8fa0b5; font-size: 13px; transition: .2s; }

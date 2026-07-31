@@ -2,6 +2,7 @@
 
 这是峡谷马力检测器的公开介绍与下载页面，不包含应用源代码。
 
+- 作者：lzsk（[GitHub @kange666](https://github.com/kange666)）
 - 在线页面：<https://kange666.github.io/lol-horse-detector-download/>
 - 最新版本：v10
 - 支持系统：64 位 Windows 10 / 11
