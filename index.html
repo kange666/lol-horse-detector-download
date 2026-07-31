@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="峡谷马力检测器：本地运行的英雄联盟五人战绩分析与马匹评级工具，支持召唤师峡谷、极地大乱斗和海克斯大乱斗。">
+  <meta name="theme-color" content="#071019">
+  <title>峡谷马力检测器｜英雄联盟五人战绩分析</title>
+  <link rel="icon" href="./assets/app-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark">马</span>
+      <span>
+        <strong>峡谷马力检测器</strong>
+        <small>LoL Horse Detector</small>
+      </span>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#features">功能</a>
+      <a href="#modes">模式</a>
+      <a href="#safety">安全边界</a>
+      <a class="nav-download" href="#download">立即下载</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Windows · 本地运行 · 五人分析</span>
+        <h1>选人阶段，<br><em>一眼看懂本局马力。</em></h1>
+        <p class="hero-lead">
+          自动分析自己和四名队友的近期战绩、常玩分路、段位、英雄池与团队贡献，
+          将五人依次评为牛马、下等马、中等马、上等马和千里马。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/lol-horse-detector-amd64-installer.exe">
+            <span>下载 Windows 安装版</span>
+            <small>v10 · 约 6.2 MB</small>
+          </a>
+          <a class="button secondary" href="#download">其他下载方式</a>
+        </div>
+        <p class="compatibility">适用于 64 位 Windows 10 / 11 · 国服 WeGame 英雄联盟客户端</p>
+      </div>
+
+      <div class="product-preview" aria-label="应用界面示意">
+        <div class="preview-glow"></div>
+        <div class="preview-window">
+          <div class="preview-topbar">
+            <div class="preview-brand">
+              <span>马</span>
+              <p><strong>峡谷马力检测器</strong><small>只读分析 · 数据仅留在本机</small></p>
+            </div>
+            <i></i><i></i><i></i>
+          </div>
+          <div class="preview-status">
+            <span><b></b> 客户端已连接</span>
+            <span>英雄选择</span>
+            <strong>极地大乱斗</strong>
+          </div>
+          <div class="preview-heading">
+            <p><small>极地大乱斗五人</small><strong>连自己一起，看看本局马力</strong></p>
+            <span>复制分析结果</span>
+          </div>
+          <div class="horse-grid">
+            <article class="horse lowest">
+              <small>逆风开局</small><b>82.4</b><strong>牛马</strong>
+              <span>近 20 场 · 胜率 35%</span>
+            </article>
+            <article class="horse low">
+              <small>状态一般</small><b>96.8</b><strong>下等马</strong>
+              <span>参团率 51%</span>
+            </article>
+            <article class="horse medium">
+              <small>发挥稳定</small><b>113.5</b><strong>中等马</strong>
+              <span>KDA 3.7</span>
+            </article>
+            <article class="horse high">
+              <small>团队核心</small><b>132.1</b><strong>上等马</strong>
+              <span>伤害占比 28%</span>
+            </article>
+            <article class="horse highest">
+              <small>状态火热</small><b>156.7</b><strong>千里马</strong>
+              <span>近 10 场 8 胜</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="应用特点">
+      <div><strong>5 人</strong><span>自己与四名队友同时分析</span></div>
+      <div><strong>2 套</strong><span>峡谷与大乱斗独立算法</span></div>
+      <div><strong>20 局</strong><span>按模式筛选近期有效对局</span></div>
+      <div><strong>0 上传</strong><span>战绩与令牌仅留在本机</span></div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-title">
+        <span class="eyebrow">不只看输赢</span>
+        <h2>每一档评价，都有数据依据</h2>
+        <p>从战绩到本局英雄，从分路习惯到团队贡献，展示加分与扣分来源。</p>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span class="feature-number">01</span>
+          <h3>五人唯一排名</h3>
+          <p>完整取得五人数据后按综合表现排序，五档马名逐一分配，同一局不重复。</p>
+        </article>
+        <article>
+          <span class="feature-number">02</span>
+          <h3>多维近期表现</h3>
+          <p>综合胜率、KDA、参团率、英雄伤害占比、分均补刀、视野和稳定性等数据。</p>
+        </article>
+        <article>
+          <span class="feature-number">03</span>
+          <h3>英雄与位置匹配</h3>
+          <p>判断本局分路是否常玩、预选英雄近期熟练程度，换英雄时实时重算。</p>
+        </article>
+        <article>
+          <span class="feature-number">04</span>
+          <h3>评分完全可配置</h3>
+          <p>支持自定义五档马名、分数分界、两种模式权重，以及本人固定分数。</p>
+        </article>
+        <article>
+          <span class="feature-number">05</span>
+          <h3>结果一键复制</h3>
+          <p>复制五人的马匹、分数、核心数据、分项构成与评分依据，方便直接分享。</p>
+        </article>
+        <article>
+          <span class="feature-number">06</span>
+          <h3>客户端自动识别</h3>
+          <p>管理员权限启动后等待国服客户端，进入英雄选择阶段即可自动开始分析。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="modes" class="section modes">
+      <div class="section-title">
+        <span class="eyebrow">模式不会混算</span>
+        <h2>峡谷看职责，大乱斗看团战</h2>
+      </div>
+      <div class="mode-grid">
+        <article class="mode-card rift">
+          <div class="mode-icon">峡</div>
+          <div>
+            <span>Summoner's Rift</span>
+            <h3>召唤师峡谷</h3>
+            <p>结合基础表现、分路匹配、当前英雄、相对段位和稳定性，辅助位使用独立纠偏。</p>
+            <ul>
+              <li>单双排、灵活排位、普通匹配</li>
+              <li>常玩分路与本局位置匹配</li>
+              <li>段位中文显示与队内相对修正</li>
+            </ul>
+          </div>
+        </article>
+        <article class="mode-card aram">
+          <div class="mode-icon">乱</div>
+          <div>
+            <span>ARAM &amp; Mayhem</span>
+            <h3>极地与海克斯大乱斗</h3>
+            <p>独立计算胜负、战斗、团队、当前英雄和稳定性，不混入峡谷段位与分路数据。</p>
+            <ul>
+              <li>普通极地大乱斗</li>
+              <li>海克斯大乱斗 / ARAM: Mayhem</li>
+              <li>参团率、伤害占比与团队贡献</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="safety" class="section safety">
+      <div class="safety-copy">
+        <span class="eyebrow">隐私与风险说明</span>
+        <h2>只读、独立窗口、本地处理</h2>
+        <p>
+          工具只连接本机 <code>127.0.0.1</code> 的英雄联盟客户端接口，不上传玩家数据，
+          不包含自动接受、自动选人、键鼠模拟、注入或修改游戏内存等功能。
+        </p>
+      </div>
+      <div class="safety-notice">
+        <strong>请在下载前了解</strong>
+        <p>
+          本工具不是 Riot Games 或腾讯官方产品，使用的是非公开且可能变化的客户端内部接口。
+          无法承诺绝对零封号风险，客户端更新后也可能暂时失效。
+        </p>
+      </div>
+    </section>
+
+    <section id="download" class="section download">
+      <div class="download-panel">
+        <div class="download-copy">
+          <span class="eyebrow">当前版本 v10</span>
+          <h2>下载并开始检测</h2>
+          <p>推荐安装版。便携版无需安装，下载后以管理员身份运行即可。</p>
+          <ol>
+            <li>下载并运行程序，接受管理员权限提示</li>
+            <li>启动 WeGame 国服英雄联盟客户端</li>
+            <li>进入选人阶段，等待五人分析完成</li>
+          </ol>
+        </div>
+        <div class="download-options">
+          <a class="download-card recommended" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/lol-horse-detector-amd64-installer.exe">
+            <span class="tag">推荐</span>
+            <strong>Windows 安装版</strong>
+            <small>lol-horse-detector-amd64-installer.exe · 6.18 MB</small>
+            <b>下载安装包 <i>→</i></b>
+          </a>
+          <details>
+            <summary>查看 SHA-256 校验值</summary>
+            <code>FB360D08186CA98B7CCA07D6A99E98F92CAAD69C82629ABB3101076AAEB37653</code>
+          </details>
+          <a class="download-card" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/LoLHorseDetector-v10.exe">
+            <strong>Windows 便携版</strong>
+            <small>LoLHorseDetector-v10.exe · 11.29 MB</small>
+            <b>下载便携版 <i>→</i></b>
+          </a>
+          <details>
+            <summary>查看 SHA-256 校验值</summary>
+            <code>898EDEE39318D3E9F6C850BE9E31EAE326AEBBF76F8610B698B1BFFF698ABBBF</code>
+          </details>
+          <p class="smartscreen">程序暂未购买商业代码签名证书，Windows SmartScreen 可能显示未知发布者。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <span class="brand-mark small">马</span>
+      <p><strong>峡谷马力检测器</strong><small>非官方社区工具 · 请自行评估使用风险</small></p>
+    </div>
+    <p>League of Legends 与 Riot Games 为其各自权利人的商标。本项目与 Riot Games、腾讯无隶属或认可关系。</p>
+  </footer>
+</body>
+</html>
