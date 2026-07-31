@@ -1,13 +1,20 @@
 {
-  "version": "v11",
-  "publishedAt": "2026-07-31T09:07:28Z",
-  "releaseUrl": "https://github.com/kange666/lol-horse-detector-download/releases/tag/v11",
-  "sourceCommit": "5dc34b01e8cb2c2af4734aae71d88c187d235eaf",
-  "portable": {
-    "name": "LoLHorseDetector-v11.exe",
-    "sizeBytes": 11026432,
-    "sizeText": "10.52 MB",
-    "sha256": "6B424AD0F429F4EBAEEA9BFD0647D23825C42B58867D44811F5801EBC30F0D33",
-    "url": "https://github.com/kange666/lol-horse-detector-download/releases/download/v11/LoLHorseDetector-v11.exe"
-  }
+    "version":  "V1.0",
+    "publishedAt":  "2026-07-31T09:17:07Z",
+    "releaseUrl":  "https://github.com/kange666/lol-horse-detector-download/releases/tag/V1.0",
+    "sourceCommit":  "deb0016fb98c01843d4048cb03d6f502ad3a179c",
+    "installer":  {
+                      "name":  "lol-horse-detector-V1.0-amd64-installer.exe",
+                      "sizeBytes":  6221955,
+                      "sizeText":  "5.93 MB",
+                      "sha256":  "D74F2D5C73DDF48844B3F58B92CF9327C3531F2C3C7791D65E0F40E23627587F",
+                      "url":  "https://github.com/kange666/lol-horse-detector-download/releases/download/V1.0/lol-horse-detector-V1.0-amd64-installer.exe"
+                  },
+    "portable":  {
+                     "name":  "LoLHorseDetector-V1.0.exe",
+                     "sizeBytes":  11026432,
+                     "sizeText":  "10.52 MB",
+                     "sha256":  "6C54F565BD86A946423275D4A193107B57FFBADBFB151C550CCF17360768563C",
+                     "url":  "https://github.com/kange666/lol-horse-detector-download/releases/download/V1.0/LoLHorseDetector-V1.0.exe"
+                 }
 }
