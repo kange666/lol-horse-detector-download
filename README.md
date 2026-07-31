@@ -4,13 +4,13 @@
 
 - 作者：lzsk（[GitHub @kange666](https://github.com/kange666)）
 - 在线页面：<https://kange666.github.io/lol-horse-detector-download/>
-- 最新版本：v10
+- 最新版本：[查看 Releases](https://github.com/kange666/lol-horse-detector-download/releases/latest)
 - 支持系统：64 位 Windows 10 / 11
 
 ## 下载
 
-- [Windows 安装版](https://github.com/kange666/lol-horse-detector-download/releases/latest/download/lol-horse-detector-amd64-installer.exe)
-- [Windows 便携版](https://github.com/kange666/lol-horse-detector-download/releases/latest/download/LoLHorseDetector-v10.exe)
+- [Windows 安装版](https://kange666.github.io/lol-horse-detector-download/#download)
+- [Windows 便携版](https://kange666.github.io/lol-horse-detector-download/#download)
 
 ## 风险说明
 

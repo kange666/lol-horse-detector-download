@@ -1,0 +1,20 @@
+{
+  "version": "v10",
+  "publishedAt": "2026-07-31T06:25:00Z",
+  "releaseUrl": "https://github.com/kange666/lol-horse-detector-download/releases/tag/v10",
+  "sourceCommit": "38e8e4a743111c8b2a22d34a36f335e3094b5901",
+  "installer": {
+    "name": "lol-horse-detector-amd64-installer.exe",
+    "sizeBytes": 6482592,
+    "sizeText": "6.18 MB",
+    "sha256": "FB360D08186CA98B7CCA07D6A99E98F92CAAD69C82629ABB3101076AAEB37653",
+    "url": "https://github.com/kange666/lol-horse-detector-download/releases/download/v10/lol-horse-detector-amd64-installer.exe"
+  },
+  "portable": {
+    "name": "LoLHorseDetector-v10.exe",
+    "sizeBytes": 11836928,
+    "sizeText": "11.29 MB",
+    "sha256": "898EDEE39318D3E9F6C850BE9E31EAE326AEBBF76F8610B698B1BFFF698ABBBF",
+    "url": "https://github.com/kange666/lol-horse-detector-download/releases/download/v10/LoLHorseDetector-v10.exe"
+  }
+}

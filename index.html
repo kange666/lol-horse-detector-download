@@ -37,9 +37,9 @@
           将五人依次评为牛马、下等马、中等马、上等马和千里马。
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/lol-horse-detector-amd64-installer.exe">
+          <a class="button primary" data-download="installer" href="https://github.com/kange666/lol-horse-detector-download/releases/download/v10/lol-horse-detector-amd64-installer.exe">
             <span>下载 Windows 安装版</span>
-            <small>v10 · 约 6.2 MB</small>
+            <small><span data-release-version>v10</span> · <span data-installer-size>6.18 MB</span></small>
           </a>
           <a class="button secondary" href="#download">其他下载方式</a>
         </div>
@@ -194,7 +194,7 @@
     <section id="download" class="section download">
       <div class="download-panel">
         <div class="download-copy">
-          <span class="eyebrow">当前版本 v10</span>
+          <span class="eyebrow">当前版本 <span data-release-version>v10</span></span>
           <h2>下载并开始检测</h2>
           <p>推荐安装版。便携版无需安装，下载后以管理员身份运行即可。</p>
           <ol>
@@ -204,24 +204,24 @@
           </ol>
         </div>
         <div class="download-options">
-          <a class="download-card recommended" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/lol-horse-detector-amd64-installer.exe">
+          <a class="download-card recommended" data-download="installer" href="https://github.com/kange666/lol-horse-detector-download/releases/download/v10/lol-horse-detector-amd64-installer.exe">
             <span class="tag">推荐</span>
             <strong>Windows 安装版</strong>
-            <small>lol-horse-detector-amd64-installer.exe · 6.18 MB</small>
+            <small><span data-installer-name>lol-horse-detector-amd64-installer.exe</span> · <span data-installer-size>6.18 MB</span></small>
             <b>下载安装包 <i>→</i></b>
           </a>
           <details>
             <summary>查看 SHA-256 校验值</summary>
-            <code>FB360D08186CA98B7CCA07D6A99E98F92CAAD69C82629ABB3101076AAEB37653</code>
+            <code data-installer-sha256>FB360D08186CA98B7CCA07D6A99E98F92CAAD69C82629ABB3101076AAEB37653</code>
           </details>
-          <a class="download-card" href="https://github.com/kange666/lol-horse-detector-download/releases/latest/download/LoLHorseDetector-v10.exe">
+          <a class="download-card" data-download="portable" href="https://github.com/kange666/lol-horse-detector-download/releases/download/v10/LoLHorseDetector-v10.exe">
             <strong>Windows 便携版</strong>
-            <small>LoLHorseDetector-v10.exe · 11.29 MB</small>
+            <small><span data-portable-name>LoLHorseDetector-v10.exe</span> · <span data-portable-size>11.29 MB</span></small>
             <b>下载便携版 <i>→</i></b>
           </a>
           <details>
             <summary>查看 SHA-256 校验值</summary>
-            <code>898EDEE39318D3E9F6C850BE9E31EAE326AEBBF76F8610B698B1BFFF698ABBBF</code>
+            <code data-portable-sha256>898EDEE39318D3E9F6C850BE9E31EAE326AEBBF76F8610B698B1BFFF698ABBBF</code>
           </details>
           <p class="smartscreen">程序暂未购买商业代码签名证书，Windows SmartScreen 可能显示未知发布者。</p>
         </div>
@@ -239,5 +239,6 @@
     </div>
     <p>非官方社区工具，请自行评估使用风险。League of Legends 与 Riot Games 为其各自权利人的商标；本项目与 Riot Games、腾讯无隶属或认可关系。</p>
   </footer>
+  <script src="./release.js" defer></script>
 </body>
 </html>
